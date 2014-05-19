@@ -1,18 +1,109 @@
+body {
+background-color: #CaCaCa;
+}
 .sectionalThird {
-width: 80%;
-min-height: 20%;
+width: 90%;
+min-height: 15%;
 background-color:#BABABA;
-margin: 2% auto;
+margin: 2% 5%;
+border-radius: 5px;
+float: left;
+ -webkit-box-shadow: 0 10px 8px #4d4d4d;
+ -moz-box-shadow: 0 10px 8px #4d4d4d;
+ box-shadow: 0 10px 8px #4d4d4d;
 }
 
 #top {
-border-bottom-right-radius: 25%;
+border-bottom-right-radius: 20%;
+border-bottom-left-radius: 20%;
+
 }
 	#name {
-	float: right;
-	margin: 5%;
+	float: left;
+	margin: 3%;
 	}
+	.menu {
+	margin: 3%;
+	}
+	.underline {
+	text-decoration: underline;
+	}
+	#name {
+	color: #4d4d4d;
+	}
+		li {
+		color: #4d4d4d;
+		float: right;
+		border: solid gray 1px;
+		padding: 1%;
+		margin: auto 1%;
+		border-radius: 20%;
+	    -webkit-box-shadow: 0 5px 8px #4d4d4d;
+	    -moz-box-shadow: 0 5px 8px #4d4d4d;
+	    box-shadow: 0 5px 8px #4d4d4d;
+	    cursor:pointer;
+	    color: #4d4d4d;
+		}
+		li:hover {
+		background-color: #4d4d4d;
+		color: white;
+		border: solid #4d4d4d 1px;
+		}
 
 #middle {
 background-color:#4d4d4d;
+border-radius: 10px;
+color: white;
+line-height: 1.7;
+font-size: 1em;
 }
+	#image {
+	border-radius: 15px;
+/*	border-top-right-radius: 70%;
+*/
+	width: 48%;
+	float: left;
+	margin: 1% 3% auto 1%;
+	-webkit-box-shadow: 5px 5px 8px #1C1C1C;
+	-moz-box-shadow: 5px 5px 8px #1C1C1C;
+	box-shadow: 5px 5px 8px #1C1C1C;
+	}
+	.informationHolder {
+	margin: 3%;
+	float: right;
+	width: 45%;
+	}
+	#header {
+	text-align: center;
+	}
+	p {
+	text-indent: 3em;
+	margin: auto 3% 1%;
+	}
+	#quote {
+	float: right;
+	width: 80%;
+	text-align: center;
+	margin: 2% 10%;
+	border-top: 1px white solid;
+	}
+#bottom {
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+min-height: 10%;
+}
+	a {
+	text-decoration: none;
+	}
+	a > img {
+	max-width: 8%;
+	margin: auto 8%;
+	 -webkit-box-shadow: 0 10px 8px #4d4d4d;
+ 	-moz-box-shadow: 0 10px 8px #4d4d4d;
+ 	box-shadow: 0 10px 8px #4d4d4d;
+	}
+	a > img:hover {
+	-webkit-box-shadow: 1px 3px 60px #4d4d4d;
+	-moz-box-shadow: 1px 3px 60px #4d4d4d;
+	box-shadow: 1px 3px 60px #4d4d4d;
+	}	
