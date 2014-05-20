@@ -19,11 +19,11 @@ border-bottom-left-radius: 20%;
 
 }
 	#name {
-	float: left;
-	margin: 3%;
+	text-align: center;
 	}
 	.menu {
-	margin: 3%;
+	text-align: center;
+	padding: 0;
 	}
 	.underline {
 	text-decoration: underline;
@@ -33,7 +33,7 @@ border-bottom-left-radius: 20%;
 	}
 		li {
 		color: #4d4d4d;
-		float: right;
+		display: inline;
 		border: solid gray 1px;
 		padding: 1%;
 		margin: auto 1%;
@@ -90,7 +90,6 @@ font-size: 1em;
 #bottom {
 border-top-right-radius: 50px;
 border-top-left-radius: 50px;
-min-height: 10%;
 }
 	a {
 	text-decoration: none;
@@ -107,3 +106,6 @@ min-height: 10%;
 	-moz-box-shadow: 1px 3px 60px #4d4d4d;
 	box-shadow: 1px 3px 60px #4d4d4d;
 	}	
+	.right > img {
+
+	}
